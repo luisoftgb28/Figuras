@@ -22,9 +22,6 @@ class Figuras:
         try:
             if base % 1 == 0 and altura % 1 == 0:
                 return (base * altura) / 2
-            else:
-                res = float(base * altura) / 2
 
-                return format(res, .2f)
         except Exception, e:
             return 'dato incorrecto'

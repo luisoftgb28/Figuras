@@ -47,9 +47,6 @@ class TestFiguras(unittest.TestCase):
         resultado = self.figuras.triangulo(8, 7)
         self.assertEqual(28, resultado)
 
-    def test_area_triangulo_base8_punto_3_altura_7_punto_2(self):
-
-        resultado = self.figuras.triangulo(8.3, 7.2)
-        self.assertEqual(29.88, resultado)
+    
 if __name__ == '__main__':
     unittest.main()
