@@ -1,4 +1,4 @@
-class Figuras:
+class Figuras():
 
     def cuadrado(self, lado):
         try:
